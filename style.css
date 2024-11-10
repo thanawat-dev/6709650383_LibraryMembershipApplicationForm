@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+CU:wght@100..400&display=swap');
+
+h1 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #134787; 
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b18653; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+form {
+    background-color: #d5c5ae;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+    border: 2px solid #54101d; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #134787; 
+    font-weight: bold;
+}
+
+input,select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #54101d; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+

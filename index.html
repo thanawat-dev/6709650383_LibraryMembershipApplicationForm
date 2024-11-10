@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library Membership Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library Membership Application Form</h1>
+
+    <form>
+
+        <label for="nameth">* ชื่อ - นามสกุล (ภาษาไทย) :</label>
+        <input type="text" id="nameth" name="nameth" required>
+        <br><br>
+
+        <label for="nameen">* Name - Surname (English) :</label>
+        <input type="text" id="nameen" name="nameen" required>
+        <br><br>
+
+        <label for="gender">* เพศ :</label>
+        <select id="gender" name="gender" required>
+            <option value="">เลือกเพศ</option>
+            <option value="male">ชาย</option>
+            <option value="female">หญิง</option>
+            <option value="non-binary">ไม่ต้องการระบุเพศ</option>
+        </select>
+        <br><br>
+
+        <label for="studentid">* รหัสนักเรียน :</label>
+        <input type="text" id="studentid" name="studentid" required>
+        <br><br>
+
+        <label for="faculty">* คณะที่ศึกษา :</label>
+        <select id="text" name="faculty" required>
+            <option value="">เลือกคณะ</option>
+            <option value="law">นิติศาสตร์</option>
+            <option value="tbs">พาณิชยศาสตร์และการบัญชี</option>
+            <option value="polsci">รัฐศาสตร์</option>
+            <option value="econ">เศรษฐศาสตร์</option>
+            <option value="socadmin">สังคมสงเคราะห์ศาสตร์</option>
+            <option value="socanth">สังคมวิทยาและมานุษยวิทยา</option>
+            <option value="arts">ศิลปศาสตร์</option>
+            <option value="jc">วารสารศาสตร์และสื่อสารมวลชน</option>
+            <option value="sci">วิทยาศาสตร์และเทคโนโลยี</option>
+            <option value="engr">วิศวกรรมศาสตร์</option>
+            <option value="tds">สถาปัตยกรรมศาสตร์และการผังเมือง</option>
+            <option value="fineart">ศิลปกรรมศาสตร์</option>
+            <option value="med">แพทยศาสตร์</option>
+            <option value="allied">สหเวชศาสตร์</option>
+            <option value="dentistry">ทันตแพทยศาสตร์</option>
+            <option value="nurse">พยาบาลศาสตร์</option>
+            <option value="fph">สาธารณสุขศาสตร์</option>
+            <option value="pharm">เภสัชศาสตร์</option>
+            <option value="lsed">วิทยาการเรียนรู้และศึกษาศาสตร์</option>
+        </select>
+        <br><br>
+
+        <label for="email">* อีเมล:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="dob">* วันเดือนปีเกิด:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="book-type">*ประเภทของหนังสือที่สนใจ :</label>
+        <input type="text" id="book-type" name="book-type">
+        <br><br>
+
+        <p>*ต้องการรับข่าวสารจากห้องสมุดหรือไม่ :</p>
+        <input type="radio" id="yes" name="news" value="yes">
+        <label for="age1">ใช่ , ฉันต้องการได้รับข่าวสาร</label>
+        <br>
+        <input type="radio" id="no" name="news" value="no">
+        <label for="age2">ไม่ , ฉันไม่ต้องการได้รับข่าวสาร</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
